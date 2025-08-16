@@ -9,7 +9,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 
-import { House } from "lucide-react";
+import { Settings, House } from "lucide-react";
 import { NavMain } from "./nav-main";
 import { NavUser } from "./nav-user"; 
 
@@ -27,18 +27,21 @@ export function AppSidebar() {
     navMain: [
       {
         title: "Dashboard",
-        url: "dashboard",
-        icon: House,
-      },
-      {
-        title: "Leads",
         url: "leads",
         icon: House,
+        items: [
+          {
+            title: "Leads",
+            url: "leads",
+            matchUrls: ["leads", "leadDetails", "leadEdit"],
+          },
+        ]
       },
+      
       {
         title: "Settings",
         url: "settings",
-        icon: House,
+        icon: Settings,
       },
     ],
   };
@@ -54,15 +57,12 @@ export function AppSidebar() {
             >
               <div className="flex aspect-square size-10 items-center justify-center rounded-lg">
                 <img
-                  src="/icon.png"
+                  src="/logo.svg"
                   alt="Logo Truther"
                   className="w-full h-[80px] object-contain"
                 />
               </div>
-              <div className="grid flex-1 text-left text-lg leading-tight">
-                <span className="truncate font-semibold">Truther</span>
-                <span className="truncate text-xs">Admin</span>
-              </div>
+              
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>

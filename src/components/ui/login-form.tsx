@@ -33,9 +33,9 @@ export function LoginForm({
       {...props}
     >
       <div className="flex flex-col items-center gap-2 text-center">
-        <h1 className="text-2xl font-bold">Faça o login com sua conta</h1>
+        <h1 className="text-2xl font-bold">Log in with your account</h1>
         <p className="text-muted-foreground text-sm text-balance">
-          Insira seu nome de usuário e senha para acessar sua conta
+          Enter your username and password to access your account.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export function LoginForm({
           <Input
             id="username"
             type="email"
-            placeholder="exemplo@dominio.com"
+            placeholder="ex@mail.com"
             ref={usernameRef}
             required
           />
@@ -53,12 +53,12 @@ export function LoginForm({
 
         <div className="grid gap-3">
           <div className="flex items-center">
-            <Label htmlFor="password">Senha</Label>
+            <Label htmlFor="password">Password</Label>
             <a
               href="#"
               className="ml-auto text-sm underline-offset-4 hover:underline"
             >
-              Esqueceu sua senha?
+              Forgot your password?
             </a>
           </div>
           <Input id="password" type="password" ref={passwordRef} required />
@@ -70,23 +70,23 @@ export function LoginForm({
 
         <div className="after:border-border relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t">
           <span className="bg-background text-muted-foreground relative z-10 px-2">
-            ou continue com
+            or continue with
           </span>
         </div>
 
         <Button variant="outline" className="w-full">
           <Mail />
-          Login com SmartPay
+          Login in uitify
         </Button>
       </div>
 
       <div className="text-center text-sm">
-        Ainda não tem conta?{" "}
+        Don't have an account yet?{" "}
         <a
           href="#"
-          className="underline underline-offset-4 text-green-400 font-bold"
+          className="underline underline-offset-4 text-purple-400 font-bold"
         >
-          Cadastre-se
+          Register
         </a>
       </div>
     </form>

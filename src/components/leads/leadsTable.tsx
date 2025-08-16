@@ -1,5 +1,5 @@
 
-import { useLeads } from '@/hooks/useLeads';
+import { useLeads } from '@/hooks/leads/useLeads';
 import { ArrowDown01 } from 'lucide-react';
 import { useState } from 'react';
 

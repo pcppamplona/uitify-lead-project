@@ -9,9 +9,9 @@ export const api = axios.create({
 });
 
 
-// interceptor for simulantion latency
-api.interceptors.request.use((config) => {
-  return new Promise((resolve) => {
-    setTimeout(() => resolve(config), 1000); // 1 s delay
-  });
-});
+// // interceptor for simulantion latency
+// api.interceptors.request.use((config) => {
+//   return new Promise((resolve) => {
+//     setTimeout(() => resolve(config), 1000); // 1 s delay
+//   });
+// });
