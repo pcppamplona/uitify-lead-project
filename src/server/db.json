@@ -2,70 +2,902 @@
   "leads": [
     {
       "id": "1",
-      "name": "Maria Silva",
-      "company": "Acme Corp",
-      "email": "maria@acme.com",
-      "source": "LinkedIn",
-      "score": 85,
-      "status": "New"
+      "name": "João Pereira 1",
+      "company": "TechNova",
+      "email": "user1@technova.com",
+      "source": "Website",
+      "score": 51,
+      "status": "Contacted"
     },
     {
-      "id": "3",
-      "name": "Ana Costa",
+      "id": "2",
+      "name": "Ana Costa 2",
       "company": "Inova Ltda",
-      "email": "ana@inova.com",
+      "email": "user2@inovaltda.com",
       "source": "Referral",
-      "score": 92,
+      "score": 52,
       "status": "Qualified"
     },
     {
-      "id": "4",
-      "name": "Carlos Souza",
+      "id": "3",
+      "name": "Carlos Souza 3",
       "company": "BuildIt",
-      "email": "carlos@buildit.io",
+      "email": "user3@buildit.com",
+      "source": "LinkedIn",
+      "score": 53,
+      "status": "New"
+    },
+    {
+      "id": "4",
+      "name": "Fernanda Lima 4",
+      "company": "DataDrive",
+      "email": "user4@datadrive.com",
+      "source": "Website",
+      "score": 54,
+      "status": "Contacted"
+    },
+    {
+      "id": "5",
+      "name": "Lucas Mendes 5",
+      "company": "BrightMind",
+      "email": "user5@brightmind.com",
+      "source": "Referral",
+      "score": 55,
+      "status": "Qualified"
+    },
+    {
+      "id": "6",
+      "name": "Patr\u00edcia Santos 6",
+      "company": "CloudWorks",
+      "email": "user6@cloudworks.com",
+      "source": "LinkedIn",
+      "score": 56,
+      "status": "New"
+    },
+    {
+      "id": "7",
+      "name": "Renato Dias 7",
+      "company": "GreenTech",
+      "email": "user7@greentech.com",
+      "source": "Website",
+      "score": 57,
+      "status": "Contacted"
+    },
+    {
+      "id": "8",
+      "name": "Juliana Rocha 8",
+      "company": "SmartSoft",
+      "email": "user8@smartsoft.com",
+      "source": "Referral",
+      "score": 58,
+      "status": "Qualified"
+    },
+    {
+      "id": "9",
+      "name": "Eduardo Almeida 9",
+      "company": "EcoWare",
+      "email": "user9@ecoware.com",
+      "source": "LinkedIn",
+      "score": 59,
+      "status": "New"
+    },
+    {
+      "id": "10",
+      "name": "Beatriz Gomes 10",
+      "company": "Acme Corp",
+      "email": "user10@acmecorp.com",
+      "source": "Website",
+      "score": 60,
+      "status": "Contacted"
+    },
+    {
+      "id": "11",
+      "name": "Rafael Costa 11",
+      "company": "TechNova",
+      "email": "user11@technova.com",
+      "source": "Referral",
+      "score": 61,
+      "status": "Qualified"
+    },
+    {
+      "id": "12",
+      "name": "Camila Ferreira 12",
+      "company": "Inova Ltda",
+      "email": "user12@inovaltda.com",
+      "source": "LinkedIn",
+      "score": 62,
+      "status": "New"
+    },
+    {
+      "id": "13",
+      "name": "Thiago Martins 13",
+      "company": "BuildIt",
+      "email": "user13@buildit.com",
+      "source": "Website",
+      "score": 63,
+      "status": "Contacted"
+    },
+    {
+      "id": "14",
+      "name": "Aline Rocha 14",
+      "company": "DataDrive",
+      "email": "user14@datadrive.com",
+      "source": "Referral",
+      "score": 64,
+      "status": "Qualified"
+    },
+    {
+      "id": "15",
+      "name": "Fernando Lima 15",
+      "company": "BrightMind",
+      "email": "user15@brightmind.com",
       "source": "LinkedIn",
       "score": 65,
       "status": "New"
     },
     {
-      "email": "fernanda@agrotech.com",
-      "status": "New",
-      "id": "5"
+      "id": "16",
+      "name": "Mariana Alves 16",
+      "company": "CloudWorks",
+      "email": "user16@cloudworks.com",
+      "source": "Website",
+      "score": 66,
+      "status": "Contacted"
     },
     {
-      "id": "6",
-      "name": "Lucas Mendes",
-      "company": "DataDrive",
-      "email": "lucas@datadrive.com",
+      "id": "17",
+      "name": "Gustavo Pinto 17",
+      "company": "GreenTech",
+      "email": "user17@greentech.com",
       "source": "Referral",
-      "score": 78,
+      "score": 67,
       "status": "Qualified"
     },
     {
-      "id": "8",
-      "name": "Renato Dias",
-      "company": "EcoWare",
-      "email": "renato@ecoware.com",
-      "source": "Website",
-      "score": 60,
+      "id": "18",
+      "name": "Larissa Moreira 18",
+      "company": "SmartSoft",
+      "email": "user18@smartsoft.com",
+      "source": "LinkedIn",
+      "score": 68,
       "status": "New"
     },
     {
-      "id": "9",
-      "name": "Juliana Rocha",
-      "company": "BrightMind",
-      "email": "juliana@brightmind.io",
+      "id": "19",
+      "name": "Vitor Almeida 19",
+      "company": "EcoWare",
+      "email": "user19@ecoware.com",
+      "source": "Website",
+      "score": 69,
+      "status": "Contacted"
+    },
+    {
+      "id": "20",
+      "name": "Maria Silva 20",
+      "company": "Acme Corp",
+      "email": "user20@acmecorp.com",
       "source": "Referral",
-      "score": 90,
+      "score": 70,
       "status": "Qualified"
     },
     {
-      "id": "10",
-      "name": "Eduardo Almeida",
-      "company": "NanoSys",
-      "email": "eduardo@nanosys.com",
+      "id": "21",
+      "name": "Jo\u00e3o Pereira 21",
+      "company": "TechNova",
+      "email": "user21@technova.com",
       "source": "LinkedIn",
-      "score": 70,
+      "score": 71,
+      "status": "New"
+    },
+    {
+      "id": "22",
+      "name": "Ana Costa 22",
+      "company": "Inova Ltda",
+      "email": "user22@inovaltda.com",
+      "source": "Website",
+      "score": 72,
+      "status": "Contacted"
+    },
+    {
+      "id": "23",
+      "name": "Carlos Souza 23",
+      "company": "BuildIt",
+      "email": "user23@buildit.com",
+      "source": "Referral",
+      "score": 73,
+      "status": "Qualified"
+    },
+    {
+      "id": "24",
+      "name": "Fernanda Lima 24",
+      "company": "DataDrive",
+      "email": "user24@datadrive.com",
+      "source": "LinkedIn",
+      "score": 74,
+      "status": "New"
+    },
+    {
+      "id": "25",
+      "name": "Lucas Mendes 25",
+      "company": "BrightMind",
+      "email": "user25@brightmind.com",
+      "source": "Website",
+      "score": 75,
+      "status": "Contacted"
+    },
+    {
+      "id": "26",
+      "name": "Patr\u00edcia Santos 26",
+      "company": "CloudWorks",
+      "email": "user26@cloudworks.com",
+      "source": "Referral",
+      "score": 76,
+      "status": "Qualified"
+    },
+    {
+      "id": "27",
+      "name": "Renato Dias 27",
+      "company": "GreenTech",
+      "email": "user27@greentech.com",
+      "source": "LinkedIn",
+      "score": 77,
+      "status": "New"
+    },
+    {
+      "id": "28",
+      "name": "Juliana Rocha 28",
+      "company": "SmartSoft",
+      "email": "user28@smartsoft.com",
+      "source": "Website",
+      "score": 78,
+      "status": "Contacted"
+    },
+    {
+      "id": "29",
+      "name": "Eduardo Almeida 29",
+      "company": "EcoWare",
+      "email": "user29@ecoware.com",
+      "source": "Referral",
+      "score": 79,
+      "status": "Qualified"
+    },
+    {
+      "id": "30",
+      "name": "Beatriz Gomes 30",
+      "company": "Acme Corp",
+      "email": "user30@acmecorp.com",
+      "source": "LinkedIn",
+      "score": 80,
+      "status": "New"
+    },
+    {
+      "id": "31",
+      "name": "Rafael Costa 31",
+      "company": "TechNova",
+      "email": "user31@technova.com",
+      "source": "Website",
+      "score": 81,
+      "status": "Contacted"
+    },
+    {
+      "id": "32",
+      "name": "Camila Ferreira 32",
+      "company": "Inova Ltda",
+      "email": "user32@inovaltda.com",
+      "source": "Referral",
+      "score": 82,
+      "status": "Qualified"
+    },
+    {
+      "id": "33",
+      "name": "Thiago Martins 33",
+      "company": "BuildIt",
+      "email": "user33@buildit.com",
+      "source": "LinkedIn",
+      "score": 83,
+      "status": "New"
+    },
+    {
+      "id": "34",
+      "name": "Aline Rocha 34",
+      "company": "DataDrive",
+      "email": "user34@datadrive.com",
+      "source": "Website",
+      "score": 84,
+      "status": "Contacted"
+    },
+    {
+      "id": "35",
+      "name": "Fernando Lima 35",
+      "company": "BrightMind",
+      "email": "user35@brightmind.com",
+      "source": "Referral",
+      "score": 85,
+      "status": "Qualified"
+    },
+    {
+      "id": "36",
+      "name": "Mariana Alves 36",
+      "company": "CloudWorks",
+      "email": "user36@cloudworks.com",
+      "source": "LinkedIn",
+      "score": 86,
+      "status": "New"
+    },
+    {
+      "id": "37",
+      "name": "Gustavo Pinto 37",
+      "company": "GreenTech",
+      "email": "user37@greentech.com",
+      "source": "Website",
+      "score": 87,
+      "status": "Contacted"
+    },
+    {
+      "id": "38",
+      "name": "Larissa Moreira 38",
+      "company": "SmartSoft",
+      "email": "user38@smartsoft.com",
+      "source": "Referral",
+      "score": 88,
+      "status": "Qualified"
+    },
+    {
+      "id": "39",
+      "name": "Vitor Almeida 39",
+      "company": "EcoWare",
+      "email": "user39@ecoware.com",
+      "source": "LinkedIn",
+      "score": 89,
+      "status": "New"
+    },
+    {
+      "id": "40",
+      "name": "Maria Silva 40",
+      "company": "Acme Corp",
+      "email": "user40@acmecorp.com",
+      "source": "Website",
+      "score": 90,
+      "status": "Contacted"
+    },
+    {
+      "id": "41",
+      "name": "Jo\u00e3o Pereira 41",
+      "company": "TechNova",
+      "email": "user41@technova.com",
+      "source": "Referral",
+      "score": 91,
+      "status": "Qualified"
+    },
+    {
+      "id": "42",
+      "name": "Ana Costa 42",
+      "company": "Inova Ltda",
+      "email": "user42@inovaltda.com",
+      "source": "LinkedIn",
+      "score": 92,
+      "status": "New"
+    },
+    {
+      "id": "43",
+      "name": "Carlos Souza 43",
+      "company": "BuildIt",
+      "email": "user43@buildit.com",
+      "source": "Website",
+      "score": 93,
+      "status": "Contacted"
+    },
+    {
+      "id": "44",
+      "name": "Fernanda Lima 44",
+      "company": "DataDrive",
+      "email": "user44@datadrive.com",
+      "source": "Referral",
+      "score": 94,
+      "status": "Qualified"
+    },
+    {
+      "id": "45",
+      "name": "Lucas Mendes 45",
+      "company": "BrightMind",
+      "email": "user45@brightmind.com",
+      "source": "LinkedIn",
+      "score": 95,
+      "status": "New"
+    },
+    {
+      "id": "46",
+      "name": "Patr\u00edcia Santos 46",
+      "company": "CloudWorks",
+      "email": "user46@cloudworks.com",
+      "source": "Website",
+      "score": 96,
+      "status": "Contacted"
+    },
+    {
+      "id": "47",
+      "name": "Renato Dias 47",
+      "company": "GreenTech",
+      "email": "user47@greentech.com",
+      "source": "Referral",
+      "score": 97,
+      "status": "Qualified"
+    },
+    {
+      "id": "48",
+      "name": "Juliana Rocha 48",
+      "company": "SmartSoft",
+      "email": "user48@smartsoft.com",
+      "source": "LinkedIn",
+      "score": 98,
+      "status": "New"
+    },
+    {
+      "id": "49",
+      "name": "Eduardo Almeida 49",
+      "company": "EcoWare",
+      "email": "user49@ecoware.com",
+      "source": "Website",
+      "score": 99,
+      "status": "Contacted"
+    },
+    {
+      "id": "50",
+      "name": "Beatriz Gomes 50",
+      "company": "Acme Corp",
+      "email": "user50@acmecorp.com",
+      "source": "Referral",
+      "score": 100,
+      "status": "Qualified"
+    },
+    {
+      "id": "51",
+      "name": "Rafael Costa 51",
+      "company": "TechNova",
+      "email": "user51@technova.com",
+      "source": "LinkedIn",
+      "score": 0,
+      "status": "New"
+    },
+    {
+      "id": "52",
+      "name": "Camila Ferreira 52",
+      "company": "Inova Ltda",
+      "email": "user52@inovaltda.com",
+      "source": "Website",
+      "score": 1,
+      "status": "Contacted"
+    },
+    {
+      "id": "53",
+      "name": "Thiago Martins 53",
+      "company": "BuildIt",
+      "email": "user53@buildit.com",
+      "source": "Referral",
+      "score": 2,
+      "status": "Qualified"
+    },
+    {
+      "id": "54",
+      "name": "Aline Rocha 54",
+      "company": "DataDrive",
+      "email": "user54@datadrive.com",
+      "source": "LinkedIn",
+      "score": 3,
+      "status": "New"
+    },
+    {
+      "id": "55",
+      "name": "Fernando Lima 55",
+      "company": "BrightMind",
+      "email": "user55@brightmind.com",
+      "source": "Website",
+      "score": 4,
+      "status": "Contacted"
+    },
+    {
+      "id": "56",
+      "name": "Mariana Alves 56",
+      "company": "CloudWorks",
+      "email": "user56@cloudworks.com",
+      "source": "Referral",
+      "score": 5,
+      "status": "Qualified"
+    },
+    {
+      "id": "57",
+      "name": "Gustavo Pinto 57",
+      "company": "GreenTech",
+      "email": "user57@greentech.com",
+      "source": "LinkedIn",
+      "score": 6,
+      "status": "New"
+    },
+    {
+      "id": "58",
+      "name": "Larissa Moreira 58",
+      "company": "SmartSoft",
+      "email": "user58@smartsoft.com",
+      "source": "Website",
+      "score": 7,
+      "status": "Contacted"
+    },
+    {
+      "id": "59",
+      "name": "Vitor Almeida 59",
+      "company": "EcoWare",
+      "email": "user59@ecoware.com",
+      "source": "Referral",
+      "score": 8,
+      "status": "Qualified"
+    },
+    {
+      "id": "60",
+      "name": "Maria Silva 60",
+      "company": "Acme Corp",
+      "email": "user60@acmecorp.com",
+      "source": "LinkedIn",
+      "score": 9,
+      "status": "New"
+    },
+    {
+      "id": "61",
+      "name": "Jo\u00e3o Pereira 61",
+      "company": "TechNova",
+      "email": "user61@technova.com",
+      "source": "Website",
+      "score": 10,
+      "status": "Contacted"
+    },
+    {
+      "id": "62",
+      "name": "Ana Costa 62",
+      "company": "Inova Ltda",
+      "email": "user62@inovaltda.com",
+      "source": "Referral",
+      "score": 11,
+      "status": "Qualified"
+    },
+    {
+      "id": "63",
+      "name": "Carlos Souza 63",
+      "company": "BuildIt",
+      "email": "user63@buildit.com",
+      "source": "LinkedIn",
+      "score": 12,
+      "status": "New"
+    },
+    {
+      "id": "64",
+      "name": "Fernanda Lima 64",
+      "company": "DataDrive",
+      "email": "user64@datadrive.com",
+      "source": "Website",
+      "score": 13,
+      "status": "Contacted"
+    },
+    {
+      "id": "65",
+      "name": "Lucas Mendes 65",
+      "company": "BrightMind",
+      "email": "user65@brightmind.com",
+      "source": "Referral",
+      "score": 14,
+      "status": "Qualified"
+    },
+    {
+      "id": "66",
+      "name": "Patr\u00edcia Santos 66",
+      "company": "CloudWorks",
+      "email": "user66@cloudworks.com",
+      "source": "LinkedIn",
+      "score": 15,
+      "status": "New"
+    },
+    {
+      "id": "67",
+      "name": "Renato Dias 67",
+      "company": "GreenTech",
+      "email": "user67@greentech.com",
+      "source": "Website",
+      "score": 16,
+      "status": "Contacted"
+    },
+    {
+      "id": "68",
+      "name": "Juliana Rocha 68",
+      "company": "SmartSoft",
+      "email": "user68@smartsoft.com",
+      "source": "Referral",
+      "score": 17,
+      "status": "Qualified"
+    },
+    {
+      "id": "69",
+      "name": "Eduardo Almeida 69",
+      "company": "EcoWare",
+      "email": "user69@ecoware.com",
+      "source": "LinkedIn",
+      "score": 18,
+      "status": "New"
+    },
+    {
+      "id": "70",
+      "name": "Beatriz Gomes 70",
+      "company": "Acme Corp",
+      "email": "user70@acmecorp.com",
+      "source": "Website",
+      "score": 19,
+      "status": "Contacted"
+    },
+    {
+      "id": "71",
+      "name": "Rafael Costa 71",
+      "company": "TechNova",
+      "email": "user71@technova.com",
+      "source": "Referral",
+      "score": 20,
+      "status": "Qualified"
+    },
+    {
+      "id": "72",
+      "name": "Camila Ferreira 72",
+      "company": "Inova Ltda",
+      "email": "user72@inovaltda.com",
+      "source": "LinkedIn",
+      "score": 21,
+      "status": "New"
+    },
+    {
+      "id": "73",
+      "name": "Thiago Martins 73",
+      "company": "BuildIt",
+      "email": "user73@buildit.com",
+      "source": "Website",
+      "score": 22,
+      "status": "Contacted"
+    },
+    {
+      "id": "74",
+      "name": "Aline Rocha 74",
+      "company": "DataDrive",
+      "email": "user74@datadrive.com",
+      "source": "Referral",
+      "score": 23,
+      "status": "Qualified"
+    },
+    {
+      "id": "75",
+      "name": "Fernando Lima 75",
+      "company": "BrightMind",
+      "email": "user75@brightmind.com",
+      "source": "LinkedIn",
+      "score": 24,
+      "status": "New"
+    },
+    {
+      "id": "76",
+      "name": "Mariana Alves 76",
+      "company": "CloudWorks",
+      "email": "user76@cloudworks.com",
+      "source": "Website",
+      "score": 25,
+      "status": "Contacted"
+    },
+    {
+      "id": "77",
+      "name": "Gustavo Pinto 77",
+      "company": "GreenTech",
+      "email": "user77@greentech.com",
+      "source": "Referral",
+      "score": 26,
+      "status": "Qualified"
+    },
+    {
+      "id": "78",
+      "name": "Larissa Moreira 78",
+      "company": "SmartSoft",
+      "email": "user78@smartsoft.com",
+      "source": "LinkedIn",
+      "score": 27,
+      "status": "New"
+    },
+    {
+      "id": "79",
+      "name": "Vitor Almeida 79",
+      "company": "EcoWare",
+      "email": "user79@ecoware.com",
+      "source": "Website",
+      "score": 28,
+      "status": "Contacted"
+    },
+    {
+      "id": "80",
+      "name": "Maria Silva 80",
+      "company": "Acme Corp",
+      "email": "user80@acmecorp.com",
+      "source": "Referral",
+      "score": 29,
+      "status": "Qualified"
+    },
+    {
+      "id": "81",
+      "name": "Jo\u00e3o Pereira 81",
+      "company": "TechNova",
+      "email": "user81@technova.com",
+      "source": "LinkedIn",
+      "score": 30,
+      "status": "New"
+    },
+    {
+      "id": "82",
+      "name": "Ana Costa 82",
+      "company": "Inova Ltda",
+      "email": "user82@inovaltda.com",
+      "source": "Website",
+      "score": 31,
+      "status": "Contacted"
+    },
+    {
+      "id": "83",
+      "name": "Carlos Souza 83",
+      "company": "BuildIt",
+      "email": "user83@buildit.com",
+      "source": "Referral",
+      "score": 32,
+      "status": "Qualified"
+    },
+    {
+      "id": "84",
+      "name": "Fernanda Lima 84",
+      "company": "DataDrive",
+      "email": "user84@datadrive.com",
+      "source": "LinkedIn",
+      "score": 33,
+      "status": "New"
+    },
+    {
+      "id": "85",
+      "name": "Lucas Mendes 85",
+      "company": "BrightMind",
+      "email": "user85@brightmind.com",
+      "source": "Website",
+      "score": 34,
+      "status": "Contacted"
+    },
+    {
+      "id": "86",
+      "name": "Patr\u00edcia Santos 86",
+      "company": "CloudWorks",
+      "email": "user86@cloudworks.com",
+      "source": "Referral",
+      "score": 35,
+      "status": "Qualified"
+    },
+    {
+      "id": "87",
+      "name": "Renato Dias 87",
+      "company": "GreenTech",
+      "email": "user87@greentech.com",
+      "source": "LinkedIn",
+      "score": 36,
+      "status": "New"
+    },
+    {
+      "id": "88",
+      "name": "Juliana Rocha 88",
+      "company": "SmartSoft",
+      "email": "user88@smartsoft.com",
+      "source": "Website",
+      "score": 37,
+      "status": "Contacted"
+    },
+    {
+      "id": "89",
+      "name": "Eduardo Almeida 89",
+      "company": "EcoWare",
+      "email": "user89@ecoware.com",
+      "source": "Referral",
+      "score": 38,
+      "status": "Qualified"
+    },
+    {
+      "id": "90",
+      "name": "Beatriz Gomes 90",
+      "company": "Acme Corp",
+      "email": "user90@acmecorp.com",
+      "source": "LinkedIn",
+      "score": 39,
+      "status": "New"
+    },
+    {
+      "id": "91",
+      "name": "Rafael Costa 91",
+      "company": "TechNova",
+      "email": "user91@technova.com",
+      "source": "Website",
+      "score": 40,
+      "status": "Contacted"
+    },
+    {
+      "id": "92",
+      "name": "Camila Ferreira 92",
+      "company": "Inova Ltda",
+      "email": "user92@inovaltda.com",
+      "source": "Referral",
+      "score": 41,
+      "status": "Qualified"
+    },
+    {
+      "id": "93",
+      "name": "Thiago Martins 93",
+      "company": "BuildIt",
+      "email": "user93@buildit.com",
+      "source": "LinkedIn",
+      "score": 42,
+      "status": "New"
+    },
+    {
+      "id": "94",
+      "name": "Aline Rocha 94",
+      "company": "DataDrive",
+      "email": "user94@datadrive.com",
+      "source": "Website",
+      "score": 43,
+      "status": "Contacted"
+    },
+    {
+      "id": "95",
+      "name": "Fernando Lima 95",
+      "company": "BrightMind",
+      "email": "user95@brightmind.com",
+      "source": "Referral",
+      "score": 44,
+      "status": "Qualified"
+    },
+    {
+      "id": "96",
+      "name": "Mariana Alves 96",
+      "company": "CloudWorks",
+      "email": "user96@cloudworks.com",
+      "source": "LinkedIn",
+      "score": 45,
+      "status": "New"
+    },
+    {
+      "id": "97",
+      "name": "Gustavo Pinto 97",
+      "company": "GreenTech",
+      "email": "user97@greentech.com",
+      "source": "Website",
+      "score": 46,
+      "status": "Contacted"
+    },
+    {
+      "id": "98",
+      "name": "Larissa Moreira 98",
+      "company": "SmartSoft",
+      "email": "user98@smartsoft.com",
+      "source": "Referral",
+      "score": 47,
+      "status": "Qualified"
+    },
+    {
+      "id": "99",
+      "name": "Vitor Almeida 99",
+      "company": "EcoWare",
+      "email": "user99@ecoware.com",
+      "source": "LinkedIn",
+      "score": 48,
+      "status": "New"
+    },
+    {
+      "id": "100",
+      "name": "Maria Silva 100",
+      "company": "Acme Corp",
+      "email": "user100@acmecorp.com",
+      "source": "Website",
+      "score": 49,
       "status": "Contacted"
     }
   ]

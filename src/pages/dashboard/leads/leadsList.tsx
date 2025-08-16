@@ -1,7 +1,4 @@
-import {
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Table,
   TableBody,
@@ -17,6 +14,7 @@ import { useState } from "react";
 import { SkeletonTable } from "@/components/skeletons/skeletonTable";
 import LeadsFilterDialog from "./components/LeadsFilterDialog";
 import { useLeadsFiltered } from "@/hooks/leads/useLeadsFiltered";
+import { renderPagination } from "@/components/ui/renderPagination";
 
 export default function LeadsList() {
   const { leads, loading, error } = useLeads();
@@ -33,6 +31,15 @@ export default function LeadsList() {
     sortByScore,
     setSortByScore,
   } = useLeadsFiltered(leads);
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 10;
+  const pageCount = Math.ceil(filteredLeads.length / pageSize);
+
+  const currentLeads = filteredLeads.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
+  );
 
   const handleRowClick = (lead: Lead) => {
     navigate("/leadDetails", { state: { leadId: lead.id } });
@@ -96,14 +103,17 @@ export default function LeadsList() {
                   {error}
                 </TableCell>
               </TableRow>
-            ) : filteredLeads.length === 0 ? (
+            ) : currentLeads.length === 0 ? (
               <TableRow>
-                <TableCell colSpan={5} className="text-center text-muted-foreground">
+                <TableCell
+                  colSpan={5}
+                  className="text-center text-muted-foreground"
+                >
                   Nenhum lead encontrado.
                 </TableCell>
               </TableRow>
             ) : (
-              filteredLeads.map((lead) => (
+              currentLeads.map((lead) => (
                 <TableRow
                   key={lead.id}
                   onClick={() => handleRowClick(lead)}
@@ -131,6 +141,10 @@ export default function LeadsList() {
             )}
           </TableBody>
         </Table>
+
+        <div className="flex justify-center mt-4">
+          {renderPagination(pageCount, currentPage, setCurrentPage)}
+        </div>
       </div>
 
       <LeadsFilterDialog
