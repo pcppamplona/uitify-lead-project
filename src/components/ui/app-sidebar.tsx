@@ -11,9 +11,11 @@ import {
 
 import { Settings, House } from "lucide-react";
 import { NavMain } from "./nav-main";
-import { NavUser } from "./nav-user"; 
+import { NavUser } from "./nav-user";
+import { useThemeStore } from "@/store/theme";
 
 export function AppSidebar() {
+  const theme = useThemeStore((state) => state.theme);
   // mock user
   const user = {
     name: "Maria Silva",
@@ -35,9 +37,9 @@ export function AppSidebar() {
             url: "leads",
             matchUrls: ["leads", "leadDetails", "leadEdit"],
           },
-        ]
+        ],
       },
-      
+
       {
         title: "Settings",
         url: "settings",
@@ -55,14 +57,11 @@ export function AppSidebar() {
               size="lg"
               className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
             >
-              <div className="flex aspect-square size-10 items-center justify-center rounded-lg">
-                <img
-                  src="/logo.svg"
-                  alt="Logo Truther"
-                  className="w-full h-[80px] object-contain"
-                />
-              </div>
-              
+              <img
+                src={theme === "dark" ? "/logoWhite.svg" : "/logo.svg"}
+                alt="Logo Truther"
+                className="w-full h-[50px] object-contain"
+              />
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>

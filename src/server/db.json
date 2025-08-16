@@ -10,15 +10,6 @@
       "status": "New"
     },
     {
-      "id": "2",
-      "name": "João Pereira",
-      "company": "TechFlow",
-      "email": "joao@techflow.io",
-      "source": "Website",
-      "score": 73,
-      "status": "Contacted"
-    },
-    {
       "id": "3",
       "name": "Ana Costa",
       "company": "Inova Ltda",
@@ -37,13 +28,9 @@
       "status": "New"
     },
     {
-      "id": "5",
-      "name": "Fernanda Lima",
-      "company": "AgroTech",
       "email": "fernanda@agrotech.com",
-      "source": "Website",
-      "score": 80,
-      "status": "Contacted"
+      "status": "New",
+      "id": "5"
     },
     {
       "id": "6",
@@ -52,15 +39,6 @@
       "email": "lucas@datadrive.com",
       "source": "Referral",
       "score": 78,
-      "status": "New"
-    },
-    {
-      "id": "7",
-      "name": "Patrícia Gomes",
-      "company": "SmartBiz",
-      "email": "patricia@smartbiz.io",
-      "source": "LinkedIn",
-      "score": 88,
       "status": "Qualified"
     },
     {
